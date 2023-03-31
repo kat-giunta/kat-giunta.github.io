@@ -1,11 +1,11 @@
 ---
 layout: project.njk
 
-thumbnail: /img/sample/brews-bites-tile.jpg
-description_short: Developing a Brand Identity for a Local Business
-description_medium: branding, print design, etc.
+thumbnail: /img/Screenshot 2023-03-30 180828 (2).jpg
+description_short: an interactive article i designed for an aprticle about paramore.
+description_medium: ux/ui design, interaction design
 eleventyNavigation:
-  key: Brew & Bites
+  key: Interactice Article
   parent: design
   order: 10
 ---
@@ -13,6 +13,8 @@ eleventyNavigation:
 ## Background
 
 As a senior graphic design student interested in branding and visual identity design, I took on the challenging project of redesigning the visual identity for a local café called "Brew and Bites". The café had been in business for three years and had established a loyal customer base. However, the café owner felt that the current visual identity did not accurately reflect the quality of their products and services. Therefore, I was approached by the owner to redesign the visual identity to enhance the café's image and attract new customers.
+
+![website](/img/sample/screenshot-180854.jpg)
 
 ## Goals
 

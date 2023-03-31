@@ -7,15 +7,15 @@
 /* font imports here */
 //copy and paste these from Google Fonts, Adobe Fonts, etc.
 // you only need to copy the '@import' line; if the code has <style> tags, delete them.
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Varela&display=swap');
 
 /* This line sets the default font for most text, including the body text, navigation, and the smaller headers (h4-h6) */
 // You can copy this from Google Fonts as well - this will be the 'font-family' value;
-$theme-font-stack-main: "IBM Plex Sans", sans-serif;
+$theme-font-stack-main: "'Gloock', serif;
 
 /* This line sets the font for larger headers (h1-h3), including the site title*/
 // You can copy this from Google Fonts as well - this will be the 'font-family' value;
-$theme-font-stack-headers: "IBM Plex Serif", serif;
+$theme-font-stack-headers: "'Varela', sans-serif;
 
 // This line sets the base font size for desktop
 // default is 110%
@@ -70,15 +70,15 @@ $sidebar-max-width: 500px;
 
 // This sets the size of the site title in the masthead (typically your name)
 // default value is 1.4rem
-$font-size-nav-masthead: 1.4rem;
+$font-size-nav-masthead: 2.4rem;
 
 // This sets the size of the line below the site title (default is 'Graphic Designer')
 // default value is 1rem
-$font-size-nav-submasthead: 1rem;
+$font-size-nav-submasthead: 1.2rem;
 
 // This sets the size of 'pages' in the sidebar, such as 'About', 'Contact', your portfolio homepage, etc.
 // default value is 1rem
-$font-size-nav-pages: 1rem;
+$font-size-nav-pages: 1.5rem;
 
 //This sets the size of projects in the sidebar
 // default value is 1rem
@@ -91,19 +91,19 @@ $nav-project-indent: 1em;
 
 // This line sets the background color for the sidebar area, and for the top bar on mobile
 // default is a light gray (#c0c0c0)
-$color-sidebar-background: #c0c0c0;
+$color-sidebar-background: #7c0808;
 
 // This line sets the text color for the sidebar area, and for the top bar on mobile
 // default is black
-$color-sidebar-text: black;
+$color-sidebar-text: rgb(255, 255, 255);
 
 //This line sets the color of the sidebar highlight (shown on the current page);
 // default is white
-$color-sidebar-highlight: white;
+$color-sidebar-highlight: rgb(33, 30, 36);
 
 //this sets the color of the rule on the sidebar (shown between the masthead and the pages)
 //default is black;
-$color-sidebar-rule: black;
+$color-sidebar-rule: rgb(255, 255, 255);
 
 // this sets the weight of the rule on the sidebar;
 // default is 2px
@@ -111,7 +111,7 @@ $weight-sidebar-rule: 2px;
 
 // This sets the color of the bottom border on the top nav bar on mobile
 // default is black
-$color-top-nav-border: black;
+$color-top-nav-border: rgb(1, 0, 0);
 
 // This sets the thickness of the bottom border on the top nav bar on mobile
 // default is 0px
@@ -131,23 +131,23 @@ $main-col-width: 50rem;
 
 // This line sets the background color for the entire page
 // default is white
-$color-page-background: white;
+$color-page-background: rgb(0, 0, 0);
 
 // This line sets the main text color for the page
 // default is black
-$color-text-primary: black;
+$color-text-primary: rgb(255, 242, 242);
 
 //This line sets the text color for header elements
 // default is black
-$color-text-headers: black;
+$color-text-headers: rgb(248, 40, 40);
 
 // This line sets the color of borders and rules on the page
 // Set this to transparent to get rid of them entirely
 // default is black
-$color-borders: black;
+$color-borders: rgb(255, 255, 255);
 
 //This line sets the width of borders on the main page area
-$border-width: 2px;
+$border-width: 4px;
 
 // This color is used for all 'regular' links in a page.
 // Default is blue
@@ -155,14 +155,14 @@ $color-text-link: blue;
 
 // This color is used for the 'previous/next project' component in the footer of a project page.
 // This color is used as a background color on hover
-$color-next-project-hover: lightpink;
+$color-next-project-hover: rgb(133, 139, 181);
 
 // Portfolio 'Tile' Layout
 // This is the layout that uses image tiles, with a hover effect that shows the title of the project.
 
 // This line sets the hover color for the 'tile' portfolio layout
 //default is white
-$color-tile-overlay: white;
+$color-tile-overlay: rgb(255, 255, 255);
 
 //this line sets the text color for the overlays on the tile layout
 //default is black
@@ -181,14 +181,14 @@ $portfolio-tile-max-columns: 3;
 
 // This line sets the hover color for the 'card' portfolio layout
 // default is lightgreen
-$color-portfolio-card-highlight: lightgreen;
+$color-portfolio-card-highlight: rgb(224, 0, 0);
 
 //This is the minimum width of a card in the 'card' portfolio layout.
 // default is 400px
-$min-card-width: 400px;
+$min-card-width: 200px;
 
 //This section is for the 'wide' portfolio layout:
 
 //this sets the color for the CTA button on the wide portfolio layout.
 //defualt is orange
-$portfolio-wide-cta-color: rgb(255, 123, 0);
+$portfolio-wide-cta-color: rgb(202, 19, 19);

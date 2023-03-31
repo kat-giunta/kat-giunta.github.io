@@ -3,7 +3,7 @@ layout: project.njk
 
 thumbnail: /img/sample/community-builders-tile.jpg
 description_short: Redesigning a Local Nonprofit's Branding for Increased Engagement
-description_medium: branding, print design, etc.
+description_medium: 
 eleventyNavigation:
   key: Community Builders
   parent: design
